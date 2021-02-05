@@ -1,0 +1,59 @@
+
+
+
+1849 - 2021
+
+라이카(영어: Leica Camera AG)는 독일의 광학 기기 회사, 카메라 제조사이며,
+에른스트 라이츠사의 후신이다. 하지만 현재 브랜드 라이선스는 Leica Microsystems AG가 가지고 있으며,
+Leica Camera AG와 Leica Geosystems AG는 브랜드를 사용하는 회사입니다.
+1913년 세계 최초로 35mm 필름을 사용하는 카메라인 'Ur-Leica'를 제작함으로써
+현대의 35mm 카메라의 기준을 제시한 회사이며, 1925년부터 지금까지
+35mm 판형의 거리계연동카메라를 만들어오고 있습니다.
+현재 디지털 레인지 파인더 카메라를 생산하는 유일한 회사입니다.
+
+
+
+JEAN GAUMY
+사진작가 Jean Gaumy는 그의 고향인 노르망디 상류의
+인상을 포착했습니다 . 그의 밀렵 속에 새로운 라이카로 말이죠
+그는 이 해안가에 대한 비공식적이고 인상적인
+시각을 제공하는 강렬한 개인 사진 일지를
+만들었습니다.
+
+
+SERVICE & SUPPORT
+라이카 제품의 가치를 보존하기 위해 우리는 세계적인 네트위크를 구성했습니다.
+전세계 어디에서든 라이카 공장에서 교육을 받은 전문가들이 당신을 맞이할 준비가 되어 있습니다.
+세계 어디에서든 그들은 넓은 범위의 서비스를 제공할 것 입니다.
+
+
+자주 묻는 질문
+많은 질문들을 한눈에
+편리하게 찾아보세요
+
+
+스토어 찾기
+라이카를 향한
+가장 빠른 방법!
+LEICA 스토어에서
+만나보세요
+
+
+
+
+<!--메인슬라이더 비디오-->
+<video id="mainVideo" autoplay muted loop>
+<source src="images/leicaVideo.mp4" type="video/mp4">
+</video>
+<!--메인슬라이더 비디오-->
+
+#mainVideo{
+	position:absolute;
+	right:0;
+	bottom:0;
+	min-width:100%;
+	min-height:100%;
+	width:auto;
+	height:auto;
+	z-index: -100;
+}

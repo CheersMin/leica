@@ -1,0 +1,19 @@
+@charset "utf-8";
+
+.section{
+    color:#fff;
+}
+
+.s1{
+    background:url(../images/sect02BG.jpg) no-repeat center center;
+    background-size: cover;
+}
+
+
+#fp-nav ul li a span{
+    background-color:#fff;
+}
+
+.s2 h3{
+    display: none;
+}

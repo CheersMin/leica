@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+    <meta charset="UTF-8">
+    <title>LEICA</title>
+    
+    <!--css-->
+    <link rel="icon" type="image/png" href="http://example.com/myicon.png">
+    <link rel="stylesheet" type="text/css" href="css/defalut.css">
+    <link rel="stylesheet" type="text/css" href="css/include.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/css/all.min.css">
+    <link rel="stylesheet" type="text/css" href="css/slick.css">
+    <link rel="stylesheet" type="text/css" href="css/fullpage.min.css">
+    <style type="text/css"></style>
+    
+    <!--스크립트-->
+    <script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script>
+    <script src="js/main.js" type="text/javascript"></script>
+    <script type="text/javascript" src="js/slick.min.js"></script>
+    <script type="text/javascript" src="js/fullpage.min.js"></script>
+    </head>
+    
+    
+    <!--풀페이지시작-->
+    <body>
+        <div id="fullpage"> 
+            <div class="section s1">
+            section01
+            </div>
+        
+        <div id="fullpage">
+            <div class="section s2">
+                <h2>section01</h2>
+                <h3>sub title</h3>
+            </div>
+        </div>
+        
+        <div id="fullpage">
+            <div class="section s3">
+            section01
+            </div>
+        </div>
+        
+        <div id="fullpage">
+            <div class="section s4">
+            section01
+            </div>
+        </div>
+        
+        <div id="fullpage">
+            <div class="section s5">
+            <h2>section01</h2>
+            </div>
+        </div>
+    </div>
+    <!--풀페이지시작-->
+        
+    <!--스크립트-->
+    <script>
+        new fullpage('#fullpage',{
+            licenseKey:'',
+            sectionsColor:['#ff0000','#00ff00','#0000ff','#aaaaaa','#525252'],
+            navigation: true,
+            navigationTooltips:['HOME','HISTORY','STORE','SUPPORT','FOOTER'],
+            onLeave:function(origin,destination,direction){
+                console.log('onLeave',origin.index,destination.index);
+            },
+            afterLoad:function(origin,destination,direction){
+                if(destination.index==1){
+                    
+                }
+            },
+        });
+    </script>
+    <!--스크립트-->
+    </body>
+</html>
